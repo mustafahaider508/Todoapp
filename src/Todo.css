@@ -1,0 +1,95 @@
+
+.body{
+    position: absolute;
+    width: 100%;
+  height: 100vh;
+  top:0;
+  left: 0;
+background: linear-gradient(#161623,rgb(82, 89, 141));
+
+ 
+   
+}
+.box{
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 20%;
+    min-width: 350px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    padding: 30px 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    
+}
+.input{
+    width: 300px;
+    color: #eee;
+   
+ 
+}
+.button{
+    background-color: rgb(19, 100, 151);
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.button1{
+    background-color: rgb(19, 100, 151);
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.list{
+    text-transform: capitalize;
+    color: #eee;
+
+}
+.deleteicon{
+    color: rgb(211, 210, 210)
+}
+.deleteicon:hover{
+    color: red;
+}
+.heading{
+    text-align: center;
+    background: #464670;
+    color:white;
+    border-radius: 4px;
+    padding: 10px;
+   
+}
+.compicon{
+    color: rgb(78, 182, 78);
+}
+.updateicon{
+    color: rgb(211, 210, 210);
+}
+.updateicon:hover{
+    color: rgb(91, 91, 231);
+   
+    
+
+}
+.text{
+    text-align: center;
+    background-color: rgb(108, 86, 203);
+    color: white;
+    padding: 10px;
+    font-style: italic;
+    font-weight: 500;
+
+}
